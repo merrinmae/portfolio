@@ -1,0 +1,22 @@
+/* Universal */
+
+.grid-wrapper {
+  display: inline-grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr;
+}
+
+/* Navigation */
+
+.nav-logo, .nav-image {
+  grid-column: 1/3;
+}
+
+/* Boxes */
+
+.stockist {
+  grid-column: 1/2;
+}
+
+.work {
+  grid-column: 2/3;
+}
